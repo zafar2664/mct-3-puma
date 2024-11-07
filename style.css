@@ -1,0 +1,332 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: 'FFDINforPuma', 'Inter', -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  #discount {
+    background-color: rgba(138, 115, 80, 1);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  #discount h5 {
+    color: white;
+    font-size: 1.2vw;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  .nav-item {
+    padding: 0 16px;
+  }
+  
+  .nav-item a {
+    color: white;
+    font-size: 1.1vw;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  .navbar-nav:hover {
+    color: rgb(76, 64, 64);
+  }
+  
+  .cart a {
+    color: white;
+    font-size: 1.2vw;
+  }
+  
+  /* Offer Section */
+  .offer {
+    background-color: rgba(67, 69, 131, 1);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .offer h2, .offer p {
+    color: white;
+  }
+  
+  .offer h2 {
+    font-size: 2vw;
+  }
+  
+  .offer p {
+    font-size: 1.5vw;
+  }
+  
+  /* Main Section */
+  .m1 {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .m1 h1 {
+    font-size: 3vw;
+    color: white;
+  }
+  
+  .m1 a {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1vw;
+    margin-top: 15px;
+    display: inline-block;
+  }
+  
+  /* Suede Section */
+  .suede {
+    position: relative;
+    text-align: center;
+  }
+  
+  .suede .back {
+    background-color: rgba(42, 92, 94, 1);
+    height: 400px;
+  }
+  
+  .suede .img1, .suede .img2 {
+    position: absolute;
+    top: -10%;
+    width: 50%;
+  }
+  
+  .suede .img2 {
+    right: 0;
+    bottom: -20%;
+  }
+  
+  .suede1 {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    color: white;
+  }
+  
+  .suede1 h2 {
+    font-size: 3vw;
+    font-weight: 700;
+  }
+  
+  .suede1 p {
+    font-size: 2vw;
+  }
+  
+  .suede1 a {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1vw;
+    margin-top: 15px;
+    display: inline-block;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: rgba(24, 24, 24, 1);
+    padding: 40px 0;
+    color: rgba(223, 224, 225, 1);
+    margin-top: 50px;
+  }
+  
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer .out h6 {
+    font-size: 1.2vw;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  footer ul {
+    list-style-type: none;
+  }
+  
+  footer ul li {
+    padding: 5px 0;
+    font-size: 1.1vw;
+    font-weight: 400;
+  }
+  
+  footer .d-flex li {
+    padding: 0 15px;
+  }
+  
+  footer .d-flex li i {
+    font-size: 22px;
+  }
+  
+  footer .bottom {
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  footer .bottom a {
+    color: rgba(223, 224, 225, 1);
+    background-color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  footer .bottom p {
+    font-size: 1vw;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .scroll-container{
+    display: flex;
+  }
+  .scroll-container2{
+    display: flex;
+    gap: 1rem;
+  }
+  .running{
+    display: flex;
+    gap: 4rem;
+    margin-top: 40px;
+    padding: 10px;
+  }
+  .easy{
+    display: flex;
+    gap: 1rem;
+  }
+  .scroll-container3{
+    display: flex;
+    gap: 1rem;
+  }
+  /* Media Queries */
+  @media (max-width: 1200px) {
+    #discount h5 {
+      font-size: 1.5vw;
+    }
+  
+    .nav-item a {
+      font-size: 1.2vw;
+    }
+  
+    .offer h2 {
+      font-size: 2.5vw;
+    }
+  
+    .offer p {
+      font-size: 1.8vw;
+    }
+  
+    .m1 h1 {
+      font-size: 3vw;
+    }
+  
+    .m1 a {
+      font-size: 1.2vw;
+    }
+  
+    .suede .back {
+      height: 350px;
+    }
+  
+    .suede .img1, .suede .img2 {
+      width: 45%;
+    }
+  
+    .suede1 h2 {
+      font-size: 2.5vw;
+    }
+  
+    .suede1 p {
+      font-size: 2vw;
+    }
+  
+    footer .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    footer .out {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #discount h5 {
+      font-size: 1.8vw;
+    }
+  
+    .nav-item a {
+      font-size: 1.3vw;
+    }
+  
+    .offer h2 {
+      font-size: 3vw;
+    }
+  
+    .offer p {
+      font-size: 2vw;
+    }
+  
+    .m1 h1 {
+      font-size: 4vw;
+    }
+  
+    .m1 a {
+      font-size: 1.5vw;
+    }
+  
+    .suede .back {
+      height: 300px;
+    }
+  
+    .suede .img1, .suede .img2 {
+      width: 60%;
+    }
+  
+    .suede1 h2 {
+      font-size: 3vw;
+    }
+  
+    .suede1 p {
+      font-size: 2.5vw;
+    }
+  
+    footer .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    footer .out {
+      margin-bottom: 20px;
+    }
+  }
+  
